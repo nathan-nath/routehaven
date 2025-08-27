@@ -522,3 +522,20 @@
     display: flex;
     font-size: 14px !important;
 }
+
+/* Section packages */
+.packages-content-1 .title-page-2{
+    margin-bottom: 15px !important;
+}
+
+.packages .card img{
+    border-radius: 10px !important;
+}
+
+.packages .card-body .card-title,
+.packages .card-body .card-text{
+    text-align: left !important;
+    margin-left: -14px !important;
+    padding: 3px 0 !important;
+}
+
