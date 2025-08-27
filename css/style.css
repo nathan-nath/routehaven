@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     font-family: "Poppins", sans-serif;
@@ -6,6 +6,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.title-page-1{
+    font-family: "Parisienne", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px !important;
+}
+
+.title-page-2{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 20px !important;
+}
+
+.card{
+    border: none !important;
+}
+
+.card-img{
+    border-radius: 10px !important;
 }
 
 
@@ -34,13 +55,13 @@
 .cto a.btn{
     border-radius: 30px !important;
     font-size: 16px;
-    border: 2px solid #E32934;
-    color: #E32934;
+    border: 2px solid #E32934 !important;
+    color: #E32934 !important;
 }
 
 .cto a.btn:hover{
     background-color: #E32934 !important;
-    color: #fff;
+    color: #fff !important;
 }
 
 /* slider section  */
@@ -322,3 +343,182 @@
     }
 }
 
+/* About-Su section */
+.about-us{
+    margin: 80px 0;
+}
+
+.about-content-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-us .fa-logo{
+    font-size: 30px;
+    border: 1px solid #ecebeb;
+    color: #66cbfa;
+    padding: 20px;
+    margin: 10px 0 !important;
+    border-radius: 50px;
+}
+
+.about-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 35% !important;
+}
+
+.descri-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.about-cto{
+    margin-left: 30px;
+}
+
+.about-cto a.btn, 
+.choose-cto a.btn{
+    background-color: #080130;
+    border-radius: 30px !important;
+    font-size: 16px;
+    border: 1px solid #080130 !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    padding: 10px 15px;
+    margin-left: -30px;
+}
+
+.about-cto a.btn:hover,
+.choose-cto a.btn:hover{
+    background-color: #fff !important;
+    color: #080130 !important;
+}
+
+.add-client{
+    border: 1px solid #080130;
+    border-radius: 20px;
+    background-color: #080130;
+    padding: 10px;
+    margin-left: 120px;
+    width: 45px;
+    color: #fff;
+}
+
+.add-client:hover{
+    background-color: #fff;
+    color: #080130;
+    transition: 0.2s;
+}
+
+.about-img{
+    flex-basis: 65% !important;
+}
+
+.about-img-1{
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.about-img-2{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 270px;
+    margin-top: -200px;
+    border: 5px solid #fff;
+}
+
+/* Destination section */
+.destination{
+    margin: 50px 0;
+}
+
+.destination-img{
+    height: 197px !important;
+}
+
+.destination .title-page-1,
+.destination .title-page-2{
+    margin-left: 10px;
+}
+/* Choose us section */
+.choose{
+    background-color: #d7d2be6e;
+    padding: 20px 0;
+    height: 460px !important;
+    margin: 30px 0 !important;
+}
+
+.choose-content{
+    margin: 40px 0 !important;
+}
+
+.chooseus-1{
+    display: flex;
+    flex-direction: column;
+    height: 450px !important;
+}
+
+.choose .title-page-1,
+.choose .title-page-2{
+    margin-left: -10px !important;
+}
+
+.choose-cto{
+    margin-left: 20px !important;
+}
+
+.choose-cto .btn{
+    width: 150px !important;
+    margin-top: 40px !important;
+}
+
+.choose-2{
+    width: 350px !important;
+    margin-left: -10px !important;
+}
+
+.chooseus-2 img, card{
+    height: 350px !important;
+    border-radius: 10px !important;
+}
+
+.chooseus-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    height: 400px !important;
+}
+
+.chooseus-3 .fa-logo{
+    background-color: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    box-shadow: 1px 0px 15px 1px rgba(128, 128, 128, 0.192);
+    margin: 10px 10px !important;
+    padding: 15px !important;
+    color: #66cbfa;
+    font-size: 20px !important;
+    text-align: center;
+    border-radius: 50px;
+    height: 50px !important;
+}
+
+.chooseus-3 .descri-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.chooseus-3 .descri-1{
+    display: flex;
+    font-size: 14px !important;
+}
