@@ -11,12 +11,10 @@
 .title-page-1{
     font-family: "Parisienne", sans-serif;
     font-size: 20px;
-    text-transform: capitalize;
-    margin-bottom: 20px !important;
+    margin-bottom: 0 !important;
 }
 
 .title-page-2{
-    text-transform: capitalize;
     font-weight: bold;
     margin-bottom: 20px !important;
 }
@@ -116,7 +114,6 @@
     margin-top: 20px;
 }
 .slider .list .item .button button{
-    /* border: none; */
     background: #14ff72;
     font-family: Poppins;
     font-weight: 500;
@@ -343,7 +340,7 @@
     }
 }
 
-/* About-Su section */
+/* About-us section */
 .about-us{
     margin: 80px 0;
 }
@@ -437,6 +434,7 @@
     border: 5px solid #fff;
 }
 
+
 /* Destination section */
 .destination{
     margin: 50px 0;
@@ -450,6 +448,8 @@
 .destination .title-page-2{
     margin-left: 10px;
 }
+
+
 /* Choose us section */
 .choose{
     background-color: #d7d2be6e;
@@ -478,7 +478,7 @@
 }
 
 .choose-cto .btn{
-    width: 150px !important;
+    width: 130px !important;
     margin-top: 40px !important;
 }
 
@@ -523,19 +523,265 @@
     font-size: 14px !important;
 }
 
+
 /* Section packages */
+.packages{
+    margin: 60px 0 !important;
+}
+
 .packages-content-1 .title-page-2{
-    margin-bottom: 15px !important;
+    margin-bottom: 20px !important;
 }
 
 .packages .card img{
     border-radius: 10px !important;
 }
 
+.packages .card img:hover, .fa-heart:hover{
+    padding: 8px;
+    border-radius: 20px !important;
+}
+
+.packages .card .heart-bt{
+    position: relative;
+    bottom: 20px;
+    right: -200px;
+    width: 40px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.packages .card .heart-bt i{
+    color: #E32934;
+}
+
 .packages .card-body .card-title,
 .packages .card-body .card-text{
     text-align: left !important;
-    margin-left: -14px !important;
+    margin-left: -12px !important;
     padding: 3px 0 !important;
+}
+
+.packages .card-body .card-text{
+    border-bottom: 1px solid rgb(202, 199, 199);
+    padding-bottom: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.packages .card-body .card-title,
+.packages .fa-location-dot,
+.packages .fa-clock{
+    color: #0EB4CA !important;
+}
+
+.packages-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.packages-icon p{
+    font-size: 12px !important;
+}
+
+.packages .fa-location-dot,
+.packages .fa-clock{
+    margin: 0 4px !important;
+}
+
+/* Destionation 2 for video */
+.destination-2{
+    background-color: #f5f3f3;
+    padding: 50px 0 !important;
+    height: auto !important;
+    margin: 30px 0 !important;
+}
+
+.destinat-cto a.btn{
+    background-color: #080130;
+    border-radius: 30px !important;
+    font-size: 16px;
+    border: 1px solid #080130 !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    padding: 10px 15px;
+}
+
+.destinat-cto a.btn:hover{
+    background-color: #fff !important;
+    color: #080130 !important;
+}
+
+.destinat-2 .card-video{
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover;
+    margin-top: 50px !important;
+    border-radius: 20px !important;
+}
+
+/* Testimonials section */
+.testimonials{
+    margin: 50px 0 !important;
+}
+
+.owl-carousel .owl-1{
+    padding: 15px 0 !important;
+    border-radius: 10px !important;
+    background-color: rgb(247, 245, 245);
+}
+
+.owl-carousel .owl-1 .card{
+    background-color: rgb(247, 245, 245);
+}
+
+.owl-carousel .owl-1 .subtitle i{
+    color: #E32934;
+}
+
+.owl-carousel .card-1{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.owl-carousel .pic-1{
+    border-bottom: 1px solid rgb(219, 218, 218);
+}
+
+.owl-carousel .pic-1 img{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 20px;
+}
+
+
+/* News letter section */
+.news-article{
+    background-color: #f5f3f3;
+    margin-top: 50px !important;
+    padding: 70px 0 !important;
+}
+
+.news-article-content{
+    margin-bottom: 20px !important;
+}
+
+.news-article .card-text-1{
+    font-weight: bold;
+}
+
+.big-card{
+    margin-left: -13px !important;
+}
+
+.news-article img{
+    border-radius: 10px !important;
+}
+
+
+/* Footer section */
+footer{
+    background-color: rgb(0, 0, 34);
+    padding: 50px 0 0 0;
+    color: #fff;
+}
+
+footer .logo-footer .logo{
+    color: #fff;
+}
+
+footer .logo-footer img{
+    margin: 0 60px;
+}
+
+.w-reduit{
+    width: 350px;
+}
+
+footer h6{
+    padding-bottom: 10px !important;
+}
+
+footer i{
+    font-size: 15px;
+}
+
+footer .bgc-red i{
+    background-color: #E32934;
+    padding: 10px 12px !important;
+    border-radius: 100px !important;
+}
+
+footer .bgc-blue-2 i{
+    width: 30px !important;
+    margin-left: -60px !important;
+}
+
+footer .bgc-blue-3 i{
+    width: 30px !important;
+    margin-left: -112px !important;
+}
+
+footer .bgc-blue-4 i{
+    width: 30px !important;
+    margin-left: -170px !important;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media a:hover{
+    color: #E32934;
+}
+
+.social-media i{
+    font-size: 17px;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding-bottom: 5px !important;
+}
+
+footer .link-footer:hover{
+    cursor: pointer;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+footer .link-footer, .grey-text{
+    text-decoration: none;
+    color: rgb(165, 162, 162);
+    font-size: 12px;
+}
+
+.footer-content-1, .footer-content-2{
+    border-bottom: 1px solid grey;
+}
+
+.pd-bottom{
+    padding-bottom: 50px !important;
+}
+
+.pd{
+    padding: 40px 0 20px 0 !important;
+}
+
+.pd-1{
+    padding: 20px 0 0 0 !important;
+}
+
+.footer-content-3 .m-rt{
+    margin-right: -150px !important;
+}
+
+.footer-content-3 .m-left{
+    margin-left: -110px !important;
 }
 
